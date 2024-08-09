@@ -15,12 +15,6 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    /*
-    public User createUser(User user) {
-        return userRepository.save(user);
-    }
-    */
-
     public User createUser(User user) throws Exception {
         if (userRepository.existsById(user.getUsername())) {
             throw new Exception("User already exists");
@@ -47,10 +41,6 @@ public class UserService {
         return userRepository.findAll();
     }
 
-    /*
-    public void deleteUser(String username) {
-        userRepository.deleteById(username);
-    }*/
     public boolean deleteUser(String username) {
         if (userRepository.existsById(username)) {
             userRepository.deleteById(username);
