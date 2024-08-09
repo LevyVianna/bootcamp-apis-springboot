@@ -1,5 +1,4 @@
 <configuration>
-
     <!-- Console appender -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -16,5 +15,4 @@
     <logger name="com.example.demo" level="debug" additivity="false">
         <appender-ref ref="STDOUT"/>
     </logger>
-
 </configuration>
