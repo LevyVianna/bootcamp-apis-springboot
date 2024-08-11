@@ -33,6 +33,7 @@ public class UserController {
     @PostMapping
     public ResponseEntity<?> createUser(@RequestBody User user) {
         if (user.getUsername() == null || user.getUsername().isEmpty()) {
+            logger.debug("passei aqui");
             logger.warn("createUser(): tentou criar com usuario nulo");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Username is required"); // HTTP 400
         }
