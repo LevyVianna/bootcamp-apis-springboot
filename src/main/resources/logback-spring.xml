@@ -1,0 +1,14 @@
+<configuration>
+    <springProfile name="default">
+        <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>
+                    %highlight(%-5level) %cyan(%d{HH:mm:ss.SSS}) [%thread] %boldMagenta(%logger{36}) - %msg%n
+                </pattern>
+            </encoder>
+        </appender>
+        <root level="info">
+            <appender-ref ref="STDOUT" />
+        </root>
+    </springProfile>
+</configuration>
