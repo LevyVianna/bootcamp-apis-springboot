@@ -3,6 +3,8 @@
 
 Bem-vindo ao repositório do projeto API Users! 🎉 Estou empolgado em compartilhar com vocês esse projeto para o bootcamp “Coding the Future Claro Java Spring Boot” - https://web.dio.me/track/coding-the-future-claro-java-spring-boot . Este projeto foi desenvolvido com muito cuidado para servir como um recurso de aprendizado e um ponto de partida para explorarmos juntos boas práticas em desenvolvimento de software.
 
+<hr>
+
 ## **Como utilizar esse projeto?**
 
 1. **Já tenho uma conta no GitHub**
@@ -24,6 +26,8 @@ Primeiramente, recomendo que crie sua conta no GitHub e siga uma das opções do
 
 - **Não tenho o Git instalado em minha máquina:** você pode fazer o dowload do projeto clicando no botão verde “Code“ e depois em “Download ZIP”.
 
+<hr>
+
 ## **Stack Utilizado no Projeto**
 
 Este projeto foi desenvolvido utilizando uma stack moderna e eficiente para criar uma API robusta e fácil de manter. Aqui estão as principais tecnologias e dependências utilizadas:
@@ -36,6 +40,8 @@ Este projeto foi desenvolvido utilizando uma stack moderna e eficiente para cria
 - **Springdoc OpenAPI (Swagger 3.0)**: Ferramenta para geração automática de documentação da API, permitindo que os desenvolvedores entendam e testem os endpoints de forma interativa.
 - **Maven**: Ferramenta de build e gerenciamento de dependências, essencial para garantir que todas as bibliotecas e plugins estejam atualizados e configurados corretamente.
 
+<hr>
+
 ## **Dicas Úteis**
 
 - **Leia o arquivo pom.xml**: É fundamental entender as dependências e versões utilizadas no seu projeto. O arquivo pom.xml gerencia essas dependências e configurações do Maven, sendo o coração da sua aplicação em termos de build e integração.
@@ -45,6 +51,8 @@ Este projeto foi desenvolvido utilizando uma stack moderna e eficiente para cria
 
 Caso a JDK de sua IDE seja a 17 ou superior, o projeto deve compilar e rodar sem problemas.
 
+<hr>
+
 ## **Arquitetura e Padrões**
 
 Neste projeto, implementamos uma API CRUD para gerenciamento de usuários. Para manter o código organizado e de fácil manutenção, seguimos os padrões:
@@ -53,6 +61,8 @@ Neste projeto, implementamos uma API CRUD para gerenciamento de usuários. Para 
 - **Service**: Contém a lógica de negócio. O Service faz a ponte entre o Controller e o Repository, garantindo que todas as regras de negócio sejam aplicadas corretamente.
 - **Repository**: Cuida da comunicação com o banco de dados. Utilizando o Spring Data JPA, essa camada facilita as operações de persistência de dados.
 
+<hr>
+
 ## **Objetivos do Projeto**
 
 Os principais objetivos deste projeto, juntamente com a monitoria, são:
@@ -60,14 +70,17 @@ Os principais objetivos deste projeto, juntamente com a monitoria, são:
 - **Fornecer uma base** para quem quer começar a trabalhar com APIs e microserviços em Java e Spring Boot.
 - **Demonstrar a importância de seguir padrões de mercado**, como **REST** (incluindo o uso correto de códigos de status HTTP, verbos HTTP e nomenclatura de APIs), a **documentação com OpenAPI 3.0**, e a **correta utilização de logs**.
 
+<hr>
+
 ### **Documentação OpenAPI (Swagger):**
 http://localhost:8080/swagger-ui/index.html#/
 
 ### **H2 DB:**
 http://localhost:8080/h2-console/
-  JDBC URL: jdbc:h2:mem:testdb
-  User Name: as
-  password: password
+- **JDBC URL:** jdbc:h2:mem:testdb
+- **User Name:** as
+- **password:** password
+<hr>
 
 Espero que este projeto possa servir como uma porta de entrada para sua jornada no desenvolvimento de APIs e microserviços!
 
