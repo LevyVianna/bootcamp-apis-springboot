@@ -60,14 +60,14 @@ Os principais objetivos deste projeto, juntamente com a monitoria, são:
 - **Fornecer uma base** para quem quer começar a trabalhar com APIs e microserviços em Java e Spring Boot.
 - **Demonstrar a importância de seguir padrões de mercado**, como **REST** (incluindo o uso correto de códigos de status HTTP, verbos HTTP e nomenclatura de APIs), a **documentação com OpenAPI 3.0**, e a **correta utilização de logs**.
 
-# **Documentação OpenAPI (Swagger):**
- - http://localhost:8080/swagger-ui/index.html#/
+### **Documentação OpenAPI (Swagger):**
+http://localhost:8080/swagger-ui/index.html#/
 
-# ** - H2 DB:**
+### **H2 DB:**
 http://localhost:8080/h2-console/
-JDBC URL: jdbc:h2:mem:testdb
-User Name: as
-password: password
+  JDBC URL: jdbc:h2:mem:testdb
+  User Name: as
+  password: password
 
 Espero que este projeto possa servir como uma porta de entrada para sua jornada no desenvolvimento de APIs e microserviços!
 
