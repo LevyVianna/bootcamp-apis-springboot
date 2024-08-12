@@ -53,18 +53,25 @@ public class UserController {
             @ApiResponse(responseCode = "400", description = "username nulo ou vazio"),
             @ApiResponse(responseCode = "404", description = "usuario nao encontrado"),
     })
-    @PutMapping
-    public ResponseEntity<?> updateUser( @RequestBody User user) {
+
+    @PutMapping("/{username}")
+    public ResponseEntity<?> updateUser(@PathVariable String username, @RequestBody User user) {
         if (user.getUsername() == null || user.getUsername().isEmpty()) {
-            logger.warn("updateUser(): usuarname nulo");
+            logger.warn("updateUser(): username nulo no corpo da requisição");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Username is required"); // HTTP 400
         }
+
+        if (!username.equals(user.getUsername())) {
+            logger.warn("updateUser(): username na URL não corresponde ao username no corpo da requisição");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Username in URL and body must match"); // HTTP 400
+        }
+
         User updatedUser = userService.updateUser(user);
         if (updatedUser != null) {
-            logger.warn("updateUser(): usuario atualizado");
+            logger.info("updateUser(): usuário atualizado");
             return ResponseEntity.ok(updatedUser); // HTTP 200
         } else {
-            logger.warn("updateUser(): usuario nao encontrado");
+            logger.warn("updateUser(): usuário não encontrado");
             return ResponseEntity.notFound().build(); // HTTP 404
         }
     }

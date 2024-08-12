@@ -1,6 +1,7 @@
 # **Projeto Bootcamp API Users**
+![ ](./imgs/spring-boot-claro.png)
 
-Bem-vindo ao repositório do projeto API Users! 🎉 Estou empolgado em compartilhar com vocês esse projeto para o bootcamp “Coding the Future Claro Java Spring Boot” no GitHub. Este projeto foi desenvolvido com muito cuidado para servir como um recurso de aprendizado e um ponto de partida para explorarmos juntos boas práticas em desenvolvimento de software.
+Bem-vindo ao repositório do projeto API Users! 🎉 Estou empolgado em compartilhar com vocês esse projeto para o bootcamp “Coding the Future Claro Java Spring Boot” - https://web.dio.me/track/coding-the-future-claro-java-spring-boot . Este projeto foi desenvolvido com muito cuidado para servir como um recurso de aprendizado e um ponto de partida para explorarmos juntos boas práticas em desenvolvimento de software.
 
 ## **Como utilizar esse projeto?**
 
@@ -37,7 +38,7 @@ Este projeto foi desenvolvido utilizando uma stack moderna e eficiente para cria
 
 ## **Dicas Úteis**
 
-- **Leia o seu pom.xml**: É fundamental entender as dependências e versões utilizadas no seu projeto. O arquivo pom.xml gerencia essas dependências e configurações do Maven, sendo o coração da sua aplicação em termos de build e integração.
+- **Leia o arquivo pom.xml**: É fundamental entender as dependências e versões utilizadas no seu projeto. O arquivo pom.xml gerencia essas dependências e configurações do Maven, sendo o coração da sua aplicação em termos de build e integração.
 - **Verifique a versão do Java na sua IDE**: Caso esteja configurado em sua IDE uma versão anterior ao JDK 17, faça o download da JDK 17 (ou superior) em: <https://www.oracle.com/java/technologies/downloads/#jdk17-windows>
 
 ... instale-o e mude para a JDK 17(ou superior) na sua IDE.
@@ -58,6 +59,15 @@ Os principais objetivos deste projeto, juntamente com a monitoria, são:
 
 - **Fornecer uma base** para quem quer começar a trabalhar com APIs e microserviços em Java e Spring Boot.
 - **Demonstrar a importância de seguir padrões de mercado**, como **REST** (incluindo o uso correto de códigos de status HTTP, verbos HTTP e nomenclatura de APIs), a **documentação com OpenAPI 3.0**, e a **correta utilização de logs**.
+
+# **Documentação OpenAPI (Swagger):**
+ - http://localhost:8080/swagger-ui/index.html#/
+
+# ** - H2 DB:**
+http://localhost:8080/h2-console/
+JDBC URL: jdbc:h2:mem:testdb
+User Name: as
+password: password
 
 Espero que este projeto possa servir como uma porta de entrada para sua jornada no desenvolvimento de APIs e microserviços!
 
