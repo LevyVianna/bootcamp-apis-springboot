@@ -1,5 +1,5 @@
 # **Projeto Bootcamp API Users**
-![ ](./imgs/spring-boot-claro.png)
+![ ](https://hermes.dio.me/tracks/c90e7979-b807-4941-895a-8d85564b142e.png)
 
 Bem-vindo ao repositório do projeto API Users! 🎉 Estou empolgado em compartilhar com vocês esse projeto para o bootcamp “Coding the Future Claro Java Spring Boot” - https://web.dio.me/track/coding-the-future-claro-java-spring-boot . Este projeto foi desenvolvido com muito cuidado para servir como um recurso de aprendizado e um ponto de partida para explorarmos juntos boas práticas em desenvolvimento de software.
 
