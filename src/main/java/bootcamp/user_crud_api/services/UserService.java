@@ -28,6 +28,7 @@ public class UserService {
             User user = userOptional.get();
             user.setPassword(newUser.getPassword());
             user.setEmail(newUser.getEmail());
+            user.setAge(newUser.getAge());
             return userRepository.save(user);
         }
         return null;
