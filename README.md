@@ -26,6 +26,8 @@ Primeiramente, recomendo que crie sua conta no GitHub e siga uma das opções do
 
 ## **Stack Utilizado no Projeto**
 
+![ ](https://raw.githubusercontent.com/LevyVianna/bootcamp-apis-springboot/main/imgs/crud_USERS.png)
+
 Este projeto foi desenvolvido utilizando uma stack moderna e eficiente para criar uma API robusta e fácil de manter. Aqui estão as principais tecnologias e dependências utilizadas:
 
 - **Java 17**: A versão mais recente e estável do Java, garantindo performance e suporte a novas funcionalidades da linguagem.
